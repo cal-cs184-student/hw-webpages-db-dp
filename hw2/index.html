@@ -267,6 +267,26 @@
 				</div>
 			</div>
 			<p>In this version of the cube, we applied one edge split per face to create a more balanced initial triangulation. Essentially, the cube now has a uniform X-shaped pattern on each face. This makes sure that all edges have a more even distribution before subdivision begins, which helps prevent overly stretched triangles. As can be seen in the figures above (Figures 6.9, 6.10, and 6.11), the smoothing effect remains evenly distributed across all faces as further subdivisions are applied. We specifically found from our testing that one split per face was both the simplest and most effective in terms of the pre-processing steps that we could take. However, edge flips can also be used to improve symmetry. This is because flipping edges before subdivision can help reorient diagonal connections so that they form more equilateral triangles, which loop subdivision handles more predictably.</p>
+
+			<h2>(Optional) Section III: Potential Extra Credit - Art Competition: Model something Creative</h2>
+			<div style="display: flex; justify-content: center; gap: 10px; width: 100%;">
+				<div style="display: flex; flex-direction: column; align-items: center; width: 33%;">
+					<img src="figure_7_1.png" alt="Figure 7.1" style="width: 100%;"/>
+					<p><b>Figure 7.1 </b><small>Humanoid before subdivision.</small></p>
+				</div>
+				<div style="display: flex; flex-direction: column; align-items: center; width: 33%;">
+					<img src="figure_7_2.png" alt="Figure 7.2" style="width: 100%;"/>
+					<p><b>Figure 7.2 </b><small>Humanoid after one subdivision.</small></p>
+				</div>
+				<div style="display: flex; flex-direction: column; align-items: center; width: 33%;">
+					<img src="figure_7_3.png" alt="Figure 7.3" style="width: 100%;"/>
+					<p><b>Figure 7.3 </b><small>Humanoid after two subdivisions.</small></p>
+				</div>
+			</div>
+			<p>
+				The figures above show our best attempt at recreating the humanoid mesh from the video tutorial using
+				blender. To enhance our humanoid, we added feet and a hat.
+			</p>
 		</div>
 	</body>
 </html>
