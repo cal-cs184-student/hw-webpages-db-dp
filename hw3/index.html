@@ -533,6 +533,15 @@
 				unaccumulated images remain dark because each of them only contain the contribution of one specific
 				bounce.
 			</p>
+			<p>
+				A comparison we can make is with rasterization, which only considers direct illumination. In rasterized
+				rendering, light does not bounce naturally. This leads to shadows that are typically hard and uniform.
+				Indirect lighting effects must also be faked using techniques such as ambient occlusion. This causes the
+				rendering quality to deteriorate because it creates less realistic shading and lighting transitions.On the other
+				hand, path tracing with multiple bounces provides physically accurate global illumination.
+				Our path-traced renders show how the natural diffusion of light allows for smoother illumination
+				gradients, more realistic shadows, and cleaner color blending across surfaces.
+			</p>
 			<h3>Russian Roulette Rendering</h3>
 			<p>
 				This section shows the output of the Russian Roulette rendering with max_ray_depth set to 0, 1, 2, 3, 4,
